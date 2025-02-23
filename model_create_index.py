@@ -28,7 +28,7 @@ def msgInitialApp():
     FUNCAO QUE IMPRIME E GRAVA EM LOG MSG INICIAL DA APLICACAO
     """
     datahora = obterDataHora()
-    msg = '***** List Info ServerStatus MongoDB ***** BEGIN: ' + datahora
+    msg = '***** Create Index MongoDB ***** BEGIN: ' + datahora
     print(msg)
 
 
@@ -38,7 +38,7 @@ def msgFinalApp():
     FUNCAO QUE IMPRIME E GRAVA EM LOG MSG FINAL DA APLICACAO
     """
     datahora = obterDataHora()
-    msg = '***** List Info ServerStatus MongoDB ***** END: ' + datahora + '\n'
+    msg = '***** Create Index MongoDB ***** END: ' + datahora + '\n'
     print(msg)
 
 

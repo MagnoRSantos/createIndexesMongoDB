@@ -56,7 +56,7 @@ def createIndexes():
             resultCreatedIndex = db_target.command({
                 "createIndexes": "movies",
                 "indexes": index_commands,
-                #"commitQuorum": 1 ## Define o quorum no momento da criacao do indice
+                "commitQuorum": 1 ## Define o quorum no momento da criacao do indice
             })
             
 
